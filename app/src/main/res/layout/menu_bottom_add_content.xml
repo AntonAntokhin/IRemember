@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/navigation_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_settings_item"
+        android:background="?android:selectableItemBackground"
+        android:drawablePadding="@dimen/drawable_Padding_bottom_sheet"
+        android:drawableStart="@drawable/ic_alarm_add"
+        android:gravity="center|start"
+        android:paddingEnd="@dimen/big_padding"
+        android:paddingStart="@dimen/big_padding"
+        android:text="@string/alarm" />
+
+    <TextView
+        android:id="@+id/navigation_mic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_settings_item"
+        android:background="?android:selectableItemBackground"
+        android:drawablePadding="@dimen/drawable_Padding_bottom_sheet"
+        android:drawableStart="@drawable/ic_mic"
+        android:gravity="center|start"
+        android:paddingEnd="@dimen/big_padding"
+        android:paddingStart="@dimen/big_padding"
+        android:text="@string/microphone" />
+
+    <TextView
+        android:id="@+id/navigation_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_settings_item"
+        android:background="?android:selectableItemBackground"
+        android:drawablePadding="@dimen/drawable_Padding_bottom_sheet"
+        android:drawableStart="@drawable/ic_menu_gallery"
+        android:gravity="center|start"
+        android:paddingEnd="@dimen/big_padding"
+        android:paddingStart="@dimen/big_padding"
+        android:text="@string/gallery" />
+
+    <TextView
+        android:id="@+id/navigation_camera"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_settings_item"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:drawablePadding="@dimen/drawable_Padding_bottom_sheet"
+        android:drawableStart="@drawable/ic_menu_camera"
+        android:gravity="center|start"
+        android:paddingEnd="@dimen/big_padding"
+        android:paddingStart="@dimen/big_padding"
+        android:text="@string/camera" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/ic_notepad"
+        android:title="@string/make_a_note"  />
+
+    <item
+        android:id="@+id/navigation_alarm"
+        android:icon="@drawable/ic_alarm_add"
+        android:title="@string/alarm"
+        />
+
+    <item
+        android:id="@+id/navigation_mic"
+        android:icon="@drawable/ic_mic"
+        android:title="@string/microphone" />
+
+    <item
+        android:id="@+id/navigation_gallery"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/gallery"  />
+    <item
+        android:id="@+id/navigation_camera"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/camera"  />
+
+</menu>

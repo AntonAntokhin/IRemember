@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin">
+
+            <TextView
+                android:id="@+id/ringtone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center|start"
+                android:minHeight="@dimen/size_settings_item"
+                android:paddingEnd="8dp"
+                android:paddingStart="@dimen/default_padding"
+                android:textSize="@dimen/size_settings_text"
+                android:textStyle="bold"
+                tools:text="@string/alarm_song" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin">
+
+            <TextView
+                android:id="@+id/alarm_duration"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center|start"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/alarm_duration_default"
+                android:textSize="@dimen/size_settings_text"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin">
+
+            <Switch
+                android:id="@+id/vibration"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_settings_item"
+                android:checked="true"
+                android:paddingEnd="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:text="@string/vibration"
+                android:textSize="@dimen/size_settings_text" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin">
+
+            <Switch
+                android:id="@+id/soundless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_settings_item"
+                android:checked="true"
+                android:paddingEnd="@dimen/default_padding"
+                android:paddingStart="@dimen/default_padding"
+                android:text="@string/soundless"
+                android:textSize="@dimen/size_settings_text" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin">
+
+            <Switch
+                android:id="@+id/use_24_hour_format"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_settings_item"
+                android:checked="true"
+                android:paddingEnd="@dimen/default_padding"
+                android:paddingStart="@dimen/default_padding"
+                android:text="@string/use_24_hour_format_default"
+                android:textSize="@dimen/size_settings_text" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
