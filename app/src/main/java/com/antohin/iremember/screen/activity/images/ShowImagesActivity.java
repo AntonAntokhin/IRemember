@@ -74,6 +74,9 @@ public class ShowImagesActivity extends BaseActivity {
             case R.id.action_delete:
                 mSamplePagerAdapter.removeCurrentItem();
                 return true;
+            case android.R.id.home:
+                onBackPressed();
+                return true;
 
         }
         return super.onOptionsItemSelected(item);
