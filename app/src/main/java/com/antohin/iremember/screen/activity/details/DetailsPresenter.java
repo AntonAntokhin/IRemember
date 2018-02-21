@@ -74,6 +74,7 @@ public class DetailsPresenter extends PresenterForContent<DetailsView> {
             case R.id.navigation_color:
                 mView.onClickChoiceColor();
                 break;
+            case android.R.id.home:
             case R.id.action_save:
                 editOrCreate();
                 break;
